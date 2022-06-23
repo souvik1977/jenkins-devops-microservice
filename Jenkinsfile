@@ -12,4 +12,9 @@ piepline{
             }
         }
     }
+    post {
+        success {
+            echo 'I run when you are success'
+        }
+    }
 }
